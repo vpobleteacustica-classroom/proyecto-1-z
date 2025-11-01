@@ -1,4 +1,7 @@
-onnxruntime>=1.15.0
+torch==2.4.1
+torchaudio==2.4.1
+torchcodec==0.3.0
+onnxruntime-gpu>=1.15.0
 numpy>=1.26.0
 soundfile>=0.12.1
 basic-pitch>=0.3.0

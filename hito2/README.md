@@ -18,7 +18,12 @@ Se desarrolló una versión preliminar que:
 
 ## 🧱 Falta completar
 El sistema cumple con los objetivos principales de separación y transcripción, sin embargo:
-- El modelo de transcripción (Basic 
+- El modelo de transcripción (Basic Pitch) tiene limitaciones en precisión con acordes complejos
+- **Próximo hito:** Mejorar la calidad de las partituras generadas mediante:
+  - Fine-tuning de modelos de transcripción
+  - Post-procesamiento de notas MIDI
+  - Validación con datasets de guitarra profesional
+- **Objetivo futuro:** Adaptar la canción completa en una versión que mezcle las melodías principales, manteniendo coherencia y esencia original
 
 ---
 
@@ -29,15 +34,8 @@ El sistema cumple con los objetivos principales de separación y transcripción,
   - Validación con datasets de guitarra profesional
 - **Objetivo futuro:** Adaptar la canción completa en una versión que mezcle las melodías principales, manteniendo coherencia y esencia original
 
-### Opción 1: Google Colab (Recomendado)
-Para este proyecto, la ejecución se realiza actualmente en el entorno de Google Colab. Esta decisión se tomó debido a la complejidad en la gestión de las dependencias y las versiones de las librerías especializadas utilizadas. Al ejecutar el código en Colab, garantizamos un entorno de trabajo preconfigurado y estable, lo que minimiza los errores de compatibilidad entre las distintas versiones de las librerías de Python.
 
-**Abrir el notebook en Google Colab**  
-👉 [Abrir en Colab](https://colab.research.google.com/drive/1fGwE7eM9pQmY53bXG3p7JXR7huHOqKXb?usp=sharing)
-
----
-
-### Opción 2: Ejecución Local
+### Opción 1: Ejecución Local
 
 #### Requisitos del Sistema
 - **Python 3.11** (requerido - no funciona con Python 3.12+)
@@ -83,6 +81,14 @@ El script procesará el archivo de audio especificado y generará:
 - Pistas separadas en `separated/htdemucs_6s/`
 - Guitarra aislada con sufijo `_guitar.wav`
 - Archivo MIDI de transcripción en carpeta `transcription/`
+
+---
+
+### Opción 2: Google Colab (Recomendado)
+Para este proyecto, la ejecución se realiza actualmente en el entorno de Google Colab. Esta decisión se tomó debido a la complejidad en la gestión de las dependencias y las versiones de las librerías especializadas utilizadas. Al ejecutar el código en Colab, garantizamos un entorno de trabajo preconfigurado y estable, lo que minimiza los errores de compatibilidad entre las distintas versiones de las librerías de Python.
+
+**Abrir el notebook en Google Colab**  
+👉 [Abrir en Colab](https://colab.research.google.com/drive/1fGwE7eM9pQmY53bXG3p7JXR7huHOqKXb?usp=sharing)
 
 ---
 
