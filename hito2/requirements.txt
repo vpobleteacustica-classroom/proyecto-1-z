@@ -1,0 +1,7 @@
+onnxruntime>=1.15.0
+numpy>=1.26.0
+soundfile>=0.12.1
+basic-pitch>=0.3.0
+demucs>=4.0.0
+tensorflow>=2.13.0
+librosa>=0.10.0
