@@ -49,7 +49,7 @@ def extract_guitar(input_path, model_path="mdx_guitar.onnx"):
     return output_path
 
 
-ruta_mp3 = "song/judas30.mp3"
+ruta_mp3 = "song/instantcrush30.mp3"
 if not os.path.exists(ruta_mp3):
     print(f"Archivo no encontrado: {ruta_mp3}")
     sys.exit(1)
