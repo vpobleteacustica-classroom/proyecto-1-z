@@ -716,7 +716,7 @@ def run_pipeline(song_dir: str, out_dir: str = "arrangement_v3", max_tempo: int 
 
 
 if __name__ == "__main__":
-    song_folder = "separated/htdemucs_6s/atoutlemonde30"
+    song_folder = "separated/htdemucs_6s/judas30"
     
     # Ajustar max_tempo según preferencia:
     # 100 = Muy lento (baladas)
